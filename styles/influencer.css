@@ -279,3 +279,33 @@ header {
 .features-content .section-description{
     margin-bottom: 20px;
 }
+
+
+
+/*--------------- footer section--------------- */
+
+footer{
+    background: #0A0826;
+    max-height: 300px;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+
+.footer-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: #FFF;
+    
+}
+.footer-container h2{
+    margin-top: 30px;
+}
+
+.social-icons a{
+    padding: 10px;
+    color: #FFF;
+}
