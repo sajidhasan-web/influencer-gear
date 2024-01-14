@@ -29,9 +29,12 @@
     }
     .sponsors img{
         margin-bottom: 20px;
-        padding: 10px;
+        padding: 55px;
     }
-
+    .collection-content {
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 26px;
+    }
 }
 
 
@@ -63,6 +66,8 @@
         width: 230px;
         height: 220px;
     }
+    .collection-content {
+        grid-template-columns: repeat(2, 1fr);
 
-    
+    }
 }
