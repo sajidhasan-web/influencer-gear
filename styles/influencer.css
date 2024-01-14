@@ -75,9 +75,14 @@ header {
 
 .banner-image {
     background-image: url(../images/Circle\ design.svg);
+    /* background-position: bottom; */
     height: auto;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.banner-image img {
+    width: 80%;
 }
 
 
@@ -101,8 +106,9 @@ header {
     transition: 0.8s;
     cursor: pointer;
 }
+
 .banner-items button:hover {
-   transform: translate(10px);  
+    transform: translate(10px);
 }
 
 
@@ -121,7 +127,7 @@ header {
 }
 
 .sponsor-container .hr {
-    max-width: px;
+
     height: 1px;
     background: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
     margin: 30px 0;
@@ -155,7 +161,7 @@ header {
 
 }
 
-.collection:hover{
+.collection:hover {
     transform: scale(1.1);
     transition: 0.8s;
 }
@@ -187,14 +193,83 @@ header {
     color: #787885;
     font-family: 'Inter';
     font-size: 0.87rem;
-    margin-left:14px;
+    margin-left: 14px;
     font-weight: 700;
     line-height: 143%;
     letter-spacing: 0.252
 }
-.collection-container .section-title{
+
+.collection-container .section-title {
     text-align: center;
     margin-bottom: 50px;
     font-size: 1.75rem;
-    
+
+}
+
+.collection-container .see-more {
+    margin-right: 115px;
+    text-align: end;
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+.collection .stars img {
+    padding: 0;
+
+}
+
+.stars {
+    margin-left: 20px;
+}
+
+.stars .rating {
+    color: #5E6366;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+
+
+/*----------------------- features section------------------------ */
+
+.features-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.features-content button {
+    background: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 16px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.features-content button:hover {
+    transform: translate(10px);
+}
+
+.features-content h2 {
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 2.37rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.features-content .section-description{
+    margin-bottom: 20px;
 }

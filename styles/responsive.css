@@ -20,8 +20,8 @@
         padding: 20px;
     }
     .banner-image img{
-        width: 230px;
-        height: 220px;
+        /* width: 230px;
+        height: 220px; */
     }
     .sponsors{
         flex-direction: column;
